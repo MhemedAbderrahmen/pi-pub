@@ -1,0 +1,28 @@
+@import url("./theme/variables.less");
+
+.faq {
+  .ant-collapse>.ant-collapse-item>.ant-collapse-header {
+    min-width: 350px;
+    background-color: white;
+    flex-flow: row-reverse;
+    border-bottom: 1px solid @gray-200;
+    font-size: 16px;
+    color: @gray-900  !important;
+
+    .ant-collapse-expand-icon {
+      // display: none !important
+    }
+  }
+
+  .ant-collapse-ghost {
+    width: 100%;
+  }
+
+  .ant-collapse-content-box {
+    border-bottom: 1px solid @gray-200;
+  }
+
+  .ant-divider {
+    border-block-start: 1px solid @gray-500  !important;
+  }
+}

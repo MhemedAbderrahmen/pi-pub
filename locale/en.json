@@ -1,0 +1,209 @@
+{
+  "header": {
+    "switchLocale": "FR",
+    "menu": {
+      "type": {
+        "title": "Types d'investissement",
+        "sub_menu_1": "Investissement en Biens Immobiliers",
+        "sub_menu_2": "Investissement Direct",
+        "sub_menu_3": "Investissement de Portefeuilles",
+        "sub_menu_4": "Emprunts Extérieurs"
+      },
+      "faq": "FAQ",
+      "contact": "Contact",
+      "claims": "Réclamations",
+      "login": "en Se connecter",
+      "sign_up": "en Créer un compte"
+    }
+  },
+  "footer": {
+    "menu": {
+      "about": "À propos BCT",
+      "type": "Types d’investissement",
+      "contact": "Contact",
+      "centre": "Centre d’aide"
+    },
+    "copyright": "BCT. Tous droits réservés.",
+    "policy": "Politique de Confidentialité",
+    "mentions": "Mentions légales",
+    "conditions": "Conditions d utilisation"
+  },
+  "page_home": {
+    "banner": {
+      "title": {
+        "part1": "Investir",
+        "part2": "en Tunisie"
+      },
+      "description": "Assurer la gestion de vos déclarations d’investissement, où vous êtes et quand vous le souhaitez via votre unique compte investisseur.",
+      "description_1": "Déclarer, consulter et télécharger vos déclarations d’investissement via un compte unique",
+      "description_2": "Centraliser vos investissements en devises en Tunisie"
+    },
+    "numbers": {
+      "nb1": "Ingénieurs diplômés par an",
+      "nb2": "Aéroports internationaux",
+      "nb3": "Zones industrielles",
+      "nb4": "Ports maritimes de commerce",
+      "nb5": "Opeartional technoparks",
+      "nb6": "Cyberparks",
+      "nb7": "Poles de compétitivité"
+    },
+    "quality": {
+      "title": "La plateforme de la Banque Centrale de Tunisie pour déclarer votre investissement",
+      "qualities": {
+        "confidentiality": {
+          "title": "Confidentialité",
+          "description": "Déclarer votre investissement en toute confidentialité."
+        },
+        "digital": {
+          "title": "100% Digital",
+          "description": "Gérer vos investissements sans vous déplacer."
+        },
+        "real_time": {
+          "title": "En temps réel",
+          "description": "Etre informé de l'état de vos déclarations d’investissement"
+        },
+        "single_account": {
+          "title": "Compte Unique",
+          "description": "Centraliser vos investissements dans un seul compte"
+        }
+      }
+    },
+    "type_investment": {
+      "type_1": {
+        "title": "Investment in Real Estate",
+        "btn_1": "Bien Immeubles"
+      },
+      "type_2": {
+        "title": "Investissement Direct",
+        "btn_1": "Création d’une société",
+        "btn_2": "Augmentation de capital social",
+        "btn_3": " Acquisition de parts sociales et d’actions "
+      },
+      "type_3": {
+        "title": " Acquisition de parts sociales et d’actions ",
+        "btn_1": "Portefeuille titres",
+        "btn_2": "Acquisition de parts d’OPC"
+      },
+      "type_4": {
+        "title": "Emprunts Extérieurs",
+        "btn_1": "Avances en Comptes Courants Associés",
+        "btn_2": "Crédits Financiers"
+      }
+    },
+    "article": {
+      "part_1": "Article 6 : L’investisseur non-résident ou son mandataire doit, ",
+      "part_2": "dans un délai de deux mois",
+      "part_3": ", à compter de la date de la réalisation de l’investissement déclarer ce dernier.",
+      "date_article_1": "Circulaire N°2018-14 du 26/12/2018"
+    },
+    "statement": {
+      "title": "Quand devez-vous déclarer votre d'investissement?",
+      "step_1": "Investissement réalisé par un non-résident dans le cadre de la législation le régissant",
+      "step_2": "Financé au moyen d’une importation de devises (virement de l’étranger ou débit d’un compte étranger en devises ou en dinar convertible ou billets de banque étrangers dûment déclarés à la douane conformément à la réglementation en vigueur)"
+    },
+    "useful_links": {
+      "title": "Autre liens utiles pour vous "
+    },
+    "regulatory_texts": {
+      "title": "Regulatory texts",
+      "description": "Découvrez nos actualités réglementaires, nos articles & nos publications",
+      "regulatory_texts_1": {
+        "date": "#Circulaire N°2018-14 du 26/12/2018",
+        "title": "Quand est ce que l’investisseur doit déclarer son investissement ?",
+        "description": "Article 6 : L’investisseur non-résident ou son mandataire doit, dans un délai de deux mois..."
+      },
+      "regulatory_texts_2": {
+        "date": "#Text Juridique",
+        "title": "Textes juridiques liés à l'investissement",
+        "description": "L’article contient la différence entre les différents type d’investissement Direct ..."
+      },
+      "regulatory_texts_3": {
+        "date": "#Text Juridique",
+        "title": "Textes juridiques liés à l'investissement",
+        "description": "Les différents chiffres relatifs au paiement en Tunisie, monétique, E-PAIEMENT, paiement mobile ...."
+      }
+    }
+  },
+  "page_contact": {
+    "title": "Contactez-nous",
+    "description": "Vous avez des questions ? remplir le formulaire ci-dessous afin de contacter notre équipe.",
+    "form": {
+      "title": "Prenez contact avec nous",
+      "name": "Nom",
+      "your_name": "Votre nom",
+      "first_name": "Prénom",
+      "your_first_name": "Votre prénom",
+      "email": "Email",
+      "your_email": "Votre email",
+      "subject": "Sujet"
+    },
+    "message": "Message",
+    "information": {
+      "phone": "Téléphone",
+      "adresse": "Adresse",
+      "adresse_content": "25, Rue Hédi Nouira - BP 777 - 1080 Tunis"
+    }
+  },
+  "page_faq": {
+    "title": "FAQ",
+    "description": "Retrouvez toutes les questions les plus fréquentes  vous aider à investir en Tunisie.",
+    "content": {
+      "title": "Investissement en Tunisie ",
+      "question_1": "Comment avoir sa fiche d’investissement ? ",
+      "answer_1": "Tout d’abord il faut que l’investisseur crée son compte pour accéder aux plateformes des investisseurs . puis il suffit De déclarer le type d’investissement et remplir les champs nécessaires afin de les transmettre aux banques pour validation.",
+      "question_2": "Quels sont les différents types de déclaration d’investissement",
+      "answer_2": "1/ Attestation bancaire d'investissement : <br /> Dévolution héréditaire : Acquisition par des non-résidents de parts ou d’actions, par dévolution héréditaire <br />Souscription lors d'une augmentation de capital : Acquisition par des non-résidents de parts sociales ou d’actions, par voie de souscription lors d'une augmentation de capital, par conversion d’avances en compte courant <br />associés <br /><br />Attribution gratuite : Acquisition par des non-résidents de parts sociales ou d’actions, par voie d’attribution gratuite lors d’une augmentation du capital par incorporation de réserves <br /><br />Cession de parts sociales ou d’actions: Opération de cession de parts sociales ou d’actions entre non-résidents, avec règlement du prix correspondant à l’étranger <br /> <br /> 2/ Déclaration de désinvestissement <br/> <br/> 3/ Déclaration d'investissement"
+    }
+  },
+  "page_claims": {
+    "title": "Réclamations",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu",
+    "content": {
+      "form": {
+        "title": "Ajouter une Réclamation",
+        "name": "Nom",
+        "your_name": "Votre nom",
+        "first_name": "Prénom",
+        "your_first_name": "Votre prénom",
+        "email": "Email",
+        "your_email": "Votre email",
+        "subject": "Sujet de réclamation",
+        "your_claims": "",
+        "attach_doc": "Rattacher un document",
+        "choose_file_part1": "Choisir un ficher",
+        "choose_file_part2": "ou glisser-déposer",
+        "message": "Message"
+      }
+    }
+  },
+  "page_investment": {
+    "title": "en Les types d’investissement",
+    "types": {
+      "type_1": {
+        "title": "en Biens Immobiliers"
+      },
+      "type_2": {
+        "title": "Investissement Direct",
+        "sub_1": "Création d'une société",
+        "sub_2": "Augmentation de capital",
+        "sub_3": "Acquisition de parts & actions"
+      },
+      "type_3": {
+        "title": "Investissement de Portefeuilles",
+        "sub_1": "Portefeuille titre",
+        "sub_2": "Aquisition de parts d'OPC"
+      },
+      "type_4": {
+        "title": "Emprunts Extérieurs",
+        "sub_1": "Avances en Comptes Courants Associés",
+        "sub_2": "Crédits Financies"
+      }
+    }
+  },
+  "btn": {
+    "bt_investissement": "Déclarez votre investissement",
+    "read_more": "En savoir plus",
+    "send_bt": "Envoyer",
+    "send_claims": "Envoyer votre réclamation"
+  }
+}

@@ -1,0 +1,56 @@
+@import url("../../../styles/theme/variables.less");
+
+.BannerPage {
+  padding-left: 10%;
+  margin-bottom: 30px;
+  background-color: @blue-700;
+  color: white;
+
+  .content-banner-page {
+    padding: 30px 30px 50px 0;
+  }
+}
+
+.BannerPage {
+  h1 {
+    color: white !important;
+  }
+
+  p,
+  .ant-typography {
+    color: white !important;
+  }
+
+  .image-banner-page {
+    display: flex;
+    align-items: center;
+    min-height: 400px;
+    background-color: #fcfcfd;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: 320px) {
+  .BannerPage {
+    padding-left: 0%;
+
+    .content-banner-page {
+      padding: 30px 30px 50px 10%;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .BannerPage {
+    padding-left: 10%;
+
+    .content-banner-page {
+      padding: 30px 30px 50px 0;
+    }
+  }
+}

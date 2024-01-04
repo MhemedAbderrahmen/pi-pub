@@ -1,0 +1,141 @@
+@import url("./theme/variables.less");
+
+@font-face {
+  font-family: "InterSemiBold";
+  src: url("../assets/fonts/Inter-SemiBold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ant-collapse>.ant-collapse-item>.ant-collapse-header {
+  min-width: 350px;
+  background-color: @gray-50;
+}
+
+.content-page-inv {
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.sidebar-inv {
+
+  .ant-layout-sider-children {
+    background-color: @gray-50;
+    background: @gray-50  !important;
+    height: auto;
+    padding: 24px;
+  }
+
+  .ant-menu-light {
+    background: transparent;
+    border: none;
+  }
+
+  .ant-menu-light.ant-menu-root.ant-menu-inline {
+    border: none;
+  }
+}
+
+.ant-layout {
+  background-color: white;
+}
+
+.page_investment {
+  h5 {
+    margin: 0px !important;
+  }
+
+  img {
+    margin-bottom: 30px;
+  }
+
+  .investement-mobile {
+    h3 {
+      color: @blue-600  !important;
+      margin-bottom: 30px;
+    }
+  }
+
+  .ant-menu-item.ant-menu-item-only-child {
+    padding: 0px !important
+  }
+
+  .ant-menu-light {
+    color: @gray-500  !important;
+    font-family: "InterSemiBold" !important;
+
+    .ant-menu-item-selected {
+      color: @gray-900  !important;
+      background-color: transparent !important;
+    }
+
+    &:hover {
+      background-color: transparent !important;
+    }
+
+
+  }
+
+  .ant-menu-submenu-selected {
+    .ant-menu-submenu-title {
+      color: @gray-900  !important;
+      padding: 0px !important
+    }
+  }
+
+  .ant-menu-submenu {
+    .ant-menu-item {
+      background-color: transparent !important;
+      padding-inline-start: 0 !important;
+
+      &:hover {
+        background-color: transparent !important;
+      }
+
+    }
+
+    .ant-menu-submenu-title {
+      padding: 0px !important;
+
+      &:hover,
+      .ant-menu-item-active:active {
+        background-color: transparent !important
+      }
+    }
+  }
+
+  .ant-menu {
+    &.ant-menu-sub {
+      &.ant-menu-inline {
+        background: transparent !important;
+
+        .ant-menu-item-group-title {
+          // display: none !important;
+        }
+      }
+    }
+
+  }
+
+  .ant-menu-submenu {
+    .ant-menu-item {
+      &:hover {
+        background-color: transparent !important;
+
+        span {
+          border: none !important;
+        }
+      }
+    }
+  }
+}
+
+.ant-menu-light:not(.ant-menu-horizontal) .ant-menu-item:not(.ant-menu-item-selected) {
+
+  &:hover,
+  &:active {
+    background-color: transparent !important;
+  }
+}

@@ -1,0 +1,261 @@
+@import url("./theme/variables.less");
+
+@font-face {
+  font-family: "InterRegular";
+  src: url("../assets/fonts/Inter-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "InterSemiBold";
+  src: url("../assets/fonts/Inter-SemiBold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "InterMedium";
+  src: url("../assets/fonts/Inter-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "InterRegular" !important;
+  margin: 0;
+}
+
+.ant-typography {
+  color: @gray-600  !important;
+  font-family: "InterRegular" !important;
+}
+
+h2.ant-typography,
+h3.ant-typography,
+h4.ant-typography {
+  font-family: "InterSemiBold" !important;
+  color: @gray-900  !important;
+}
+
+.white-color,
+h3.white-color,
+h2.white-color {
+  color: white !important;
+}
+
+.ant-btn-primary {
+  font-family: "InterSemiBold" !important;
+}
+
+.content-wrapper {
+  padding: 80px 10% !important;
+}
+
+.content-footer {
+  padding: 0px 10% !important;
+}
+
+Button.ant-btn {
+  a {
+    font-family: "InterSemiBold";
+  }
+
+  border-radius: 2px;
+//  padding: 10px 16px 10px 16px;
+  height: 40px;
+}
+
+
+
+
+/***********************************/
+.footer {
+  background-color: @blue-5  !important;
+  font-family: "InterMedium" !important;
+}
+
+/**********************************/
+.upload-text {
+  font-family: "InterMedium" !important;
+
+  span {
+    color: @blue-600;
+
+  }
+}
+
+.upload-hint {
+  color: @gray-900  !important;
+  font-size: 14px;
+}
+
+.ant-carousel {
+
+  .slick-dots-bottom {
+    bottom: 0 !important;
+  }
+
+  .slick-dots {
+    li {
+      button {
+        height: 6px;
+        border-radius: 2px;
+        background: @gray-200  !important;
+        opacity: 1;
+      }
+
+      &.slick-active {
+        button {
+          background: @blue-400  !important;
+
+          ::before {
+            opacity: 1;
+          }
+        }
+      }
+    }
+
+  }
+
+  .slick-dots li button:before {
+    opacity: 0 !important;
+  }
+}
+
+.slick-dots {
+  li {
+    &.slick-active {
+      button:before {
+        color: @blue-400  !important;
+        opacity: 1 !important;
+        background-color: @blue-400  !important;
+        border-radius: 5px !important;
+        line-height: 12px !important;
+      }
+    }
+  }
+
+}
+
+.slick-dots li {
+  line-height: 12px;
+  width: 23px;
+  height: 12px;
+  margin: 0px !important;
+}
+
+.slick-dots li button {
+  line-height: 12px !important;
+  width: 23px !important;
+  height: 12px !important;
+}
+
+.slick-dots li button:before {
+
+  font-size: 10px !important;
+
+  width: 23px !important;
+  height: 12px !important;
+  line-height: 12px !important;
+  opacity: 1 !important;
+  color: #E6E8F0 !important;
+}
+
+/*********************/
+.ant-collapse-header-text {
+  font-family: "InterSemiBold";
+}
+
+.ant-input {
+  border-radius: 2px;
+  height: 44px;
+  border: 1px solid @gray-200;
+
+  :not(textArea) {
+    height: 44px;
+  }
+}
+
+label {
+  font-weight: 600;
+}
+
+.ant-upload-wrapper {
+  .ant-upload-drag {
+    border-radius: 2px;
+    border: 1px solid @gray-200;
+    background-color: white;
+  }
+}
+
+
+@media (max-width: 360px) {
+  h2 {
+    font-size: 18px !important;
+  }
+
+  .content-wrapper {
+    padding: 50px 5% !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .slick-dots {
+
+    li,
+    li.slick-active {
+      line-height: 7px !important;
+      width: 16px !important;
+      height: 7px !important;
+      margin: 0px !important;
+    }
+  }
+
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+  }
+
+  .slick-dots li button {
+    line-height: 7px !important;
+    width: 14px !important;
+    height: 7px !important;
+  }
+
+  .slick-dots li button:before {
+
+    font-size: 6px !important;
+
+    width: 14px !important;
+    height: 7px !important;
+    line-height: 7px !important;
+    opacity: 1 !important;
+    color: #E6E8F0 !important;
+    background-color: #E6E8F0 !important;
+    border-radius: 5px;
+  }
+
+  .slick-dots {
+    li {
+      &.slick-active {
+        button:before {
+
+          line-height: 7px !important;
+        }
+      }
+    }
+
+  }
+}
+
+@media (min-width: 1024px) {
+  h2 {
+    font-size: 32px !important;
+  }
+}
+
+.slick-track {
+  display: flex !important;
+}
+
