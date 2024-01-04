@@ -105,7 +105,7 @@ const TopMenu = () => {
         <li>
           <Space wrap className="connect-btn">
             <Button className="InterSemiBoldFont btn-link login-btn">
-              <Link target="_blanck" href="">
+              <Link target="_blanck" href="http://192.168.34.137:7001/pi-recette">
                 {t("menu.login")}
               </Link>
             </Button>
@@ -113,7 +113,7 @@ const TopMenu = () => {
               type="primary"
               className="InterSemiBoldFont btn-link sign-btn"
             >
-              <Link target="_blanck" href="">
+              <Link target="_blanck" href="http://192.168.34.137:7001/pi-recette">
                 {t("menu.sign_up")}
               </Link>
             </Button>
